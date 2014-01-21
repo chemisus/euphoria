@@ -1,0 +1,23 @@
+{
+    "name": "chemisus/euphoria",
+    "authors": [
+        {
+            "name": "Terrence Howard",
+            "email": "chemisus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "app/src",
+            "app/test"
+        ]
+    },
+    "require": {
+        "chemisus/slinpin": "dev-master",
+        "chemisus/vein": "dev-master",
+        "chemisus/dragon": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
